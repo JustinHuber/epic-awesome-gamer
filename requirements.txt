@@ -1,1 +1,3 @@
 hcaptcha-challenger[playwright]
+importlib_metadata
+ 
