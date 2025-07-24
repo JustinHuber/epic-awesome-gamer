@@ -12,7 +12,7 @@ from dataclasses import dataclass, field
 from typing import List
 
 import importlib_metadata
-from hcaptcha_challenger.agent import AgentV, AgentConfig
+from hcaptcha_challenger.agents import AgentV, AgentConfig
 from hcaptcha_challenger.models import CaptchaResponse
 from hcaptcha_challenger.utils import SiteKey
 from loguru import logger
