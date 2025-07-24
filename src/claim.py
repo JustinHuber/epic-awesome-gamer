@@ -12,8 +12,9 @@ from dataclasses import dataclass, field
 from typing import List
 
 import importlib_metadata
-from hcaptcha_challenger import install
-from hcaptcha_challenger.agents import Malenia
+from hcaptcha_challenger.agent import AgentV, AgentConfig, Malenia
+from hcaptcha_challenger.models import CaptchaResponse
+from hcaptcha_challenger.utils import SiteKey
 from loguru import logger
 from playwright.async_api import BrowserContext, async_playwright
 
