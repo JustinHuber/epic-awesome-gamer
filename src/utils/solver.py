@@ -6,7 +6,7 @@
 import asyncio
 from dataclasses import dataclass
 
-from hcaptcha_challenger.agents import AgentT
+from hcaptcha_challenger.agent import AgentT
 from playwright.async_api import Page
 from tenacity import *
 
